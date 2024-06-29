@@ -1,0 +1,88 @@
+.container {
+  background-color: #000000; 
+  max-width: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+}
+
+#inputField {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin: 4px;
+  background-color: #808080; 
+  border: none;
+  border-radius: 50%; 
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #666666; /* Darker gray color on hover */
+}
+
+.opr {
+  background-color: #0000ff; /* Blue color for operators */
+}
+
+.opr:hover {
+  background-color: #0033ff; /* Darker blue color on hover */
+}
+
+#delete {
+  background-color: #ff0000; /* Red color for delete button */
+}
+
+#delete:hover {
+  background-color: #cc0000; /* Darker red color on hover */
+}
+
+#result {
+  width: 90px;
+  background-color: #33cc33; /* Green color for result button */
+}
+
+#result:hover {
+  background-color: #2eb82e; /* Darker green color on hover */
+}
+
+#clear {
+  background-color: #ffff66; /* Yellowish color for clear button */
+}
+
+#clear:hover {
+  background-color: #cccc33; /* Darker yellowish color on hover */
+}
+
+/* Add some animations to the buttons */
+.btn {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
